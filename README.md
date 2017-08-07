@@ -13,7 +13,8 @@ execute,
 ```
 example
 
-```./tcpserver.sh 100
+```shell
+./tcpserver.sh 100
 ```
 
 ##How to run client
@@ -22,7 +23,8 @@ example
 ./tcpclient.sh
 ```
 example
-```./tcpclient.sh
+```shell
+./tcpclient.sh
 ```
 
 
