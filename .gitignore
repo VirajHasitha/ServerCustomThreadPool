@@ -1,0 +1,10 @@
+#GIT IGNORE
+
+*.iml
+*.iws
+*.ipr
+.idea/
+
+tcp.client/target/
+tcp.server/target/
+target/
