@@ -1,33 +1,28 @@
-#Simple TCP Server
+# Simple TCP Client Server Program
 
-This project contains a simple TCP serverwhich is capable of handling multiple concurrent clients. The maximum number of client serviceable at a given time is decided by **maxConn** parameter.
+This project contains a simple TCP server which is capable of handling multiple concurrent clients. 
+The maximum number of client serviceable at a given time is decided by maxConn parameter.
 
-When the maximum  number of client is reached, and new request are reached, such client request will be queued for a period of time until the queue size is reached.
+When the maximum number of client is reached, and new request are reached, such client request will be queued for a period of time until the queue size is reached.
 
-##How to run server
+## How to run server
 
-execute, 
-
+execute,
 ```shell
 ./tcpserver.sh {maxConn}
 ```
 example
-
-```./tcpserver.sh 100
+```shell
+./tcpserver.sh 100
 ```
 
-##How to run client
+## How to run client
 
+execute,
 ```shell
 ./tcpclient.sh
 ```
 example
-```./tcpclient.sh
+```shell
+./tcpclient.sh
 ```
-
-
-
-
-
-
-
